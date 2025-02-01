@@ -1,5 +1,5 @@
 
-public class Dockerfile {
+
     
     # 1. Use an official Maven + Java 17 image to build the code
 FROM maven:3.8.8-eclipse-temurin-17 AS build
@@ -24,5 +24,5 @@ COPY --from=build /app/target/MvxOrgBot-1.0-SNAPSHOT.jar /app/bot.jar
 CMD ["java", "-jar", "bot.jar"]
 
     
-}
+
 
