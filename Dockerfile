@@ -23,6 +23,6 @@ COPY --from=build /app/target/MvxOrgBot-1.0-SNAPSHOT.jar /app/bot.jar
  # 7. Command to run your bot
 CMD ["java", "-jar", "bot.jar"]
 
-    
+  
 
 
